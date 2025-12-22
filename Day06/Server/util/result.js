@@ -1,11 +1,11 @@
 function createResult(error,data){
-    const result={};
+    const result={}
     if(data){
         result.status="success"
         result.data=data
     }else{
         result.status="error"
-        result.error=error
+        result.error = error
     }
     return result;
 }
